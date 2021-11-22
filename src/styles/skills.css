@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+.container-skill {
+    background-color: #777777;
+}
+
+.skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.html {
+    width: 80%;
+    background-color: red;
+}
+.css {
+    width: 80%;
+    background-color: blue;
+}
+
+.js {
+    width: 70%;
+    background-color: orange;
+}
+.vue{
+    width: 60%;
+    background-color: green;
+}
+
+.materializecss {
+    width: 90%;
+    background-color: #d80491;
+}
+
+.CPP {
+    width: 70%;
+    background-color: #4e51fc;
+}
+
+.python {
+    width: 75%;
+    background-color: #efe004;
+}
+
+p {
+    color: white;
+    font-size: 15px;
+}

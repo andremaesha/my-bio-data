@@ -1,0 +1,17 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body,
+html {
+    height: auto;
+    margin: 0;
+}
+
+#body-about {
+    background-image: url("../images/black.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

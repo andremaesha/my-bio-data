@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="manifest" href="./manifest.json">
+    <title>Bio</title>
+</head>
+
+<body id="smooth" class="bg">
+
+    
+    <nav class="transparent" role="navigation">
+        <div class="nav-wrapper container">
+            <ul class="#81d4fa light-blue lighten-3 hide-on-med-and-down">
+                <a class="brand-logo">
+                    <i class="material-icons">person</i>Personal Blog
+                </a>
+            </ul>
+
+
+            <ul class="topnav right hide-on-med-and-down"></ul>
+            <ul class="topnav right">
+                <div class="clock">
+                    <span class="time"></span>
+                    <span class="date"></span>
+                </div>
+            </ul>
+        </div>
+    </nav>
+
+    
+
+    <ul id="nav-mobile" class="sidenav #757575 grey darken-1">
+        <li>
+            <div class="user-view">
+                <div class="background">
+                    <img alt="background Photo" src="images/bg-nav.jpg" class="responsive-img">
+                </div>
+                <a><img alt="andre Maesha Photo" class="circle" src="images/PasPhoto.jpg"></a>
+                <a><span class="name" id="name">Andre Maesha</span></a>
+            </div>
+        </li>
+        <li class="center-align"><a href="#!" class="black-text">Find Me</a></li>
+
+        <li><a href="mailto:andremaesha@gmail.com" class="black-text"><i><img src="images/email.png" width="40" alt="icon image"></i>Email</a></li>
+        
+        <li><a href="https://www.instagram.com/andremaesha/" target="_blank" class="black-text"><i><img src="images/IG.png" width="40" alt="Instagram"></i>Instagram</a></li>
+        <li><a href="https://github.com/andremaesha" target="_blank" class="black-text"><i><img src="images/github_icon.png" width="40" alt="Github"></i>Github</a></li>
+        <li>
+            <div class="divider"></div>
+        </li>
+        <li><a class="subheader white-text center-align">See More</a></li>
+        <div class="center-align">
+            <ul>
+                <li class="show-pages"></li>
+            </ul>
+        </div>
+    </ul>
+
+    <a href="#!" data-target="nav-mobile" class="sidenav-trigger topleft white-text"><i class="material-icons medium">menu</i></a>
+
+
+    <div id="body-content" class="container"></div>
+    <script>
+    if ("serviceWorker" in navigator){
+        window.addEventListener("load", () => {
+            navigator.serviceWorker.register("sw.js")
+        });
+    } else {
+        console.error;
+    }
+    </script>
+</body>
+
+</html>
